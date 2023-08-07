@@ -1,0 +1,121 @@
+html{
+	background:rgb(52, 229, 235);
+	width:100%;
+	height: 100%;
+	box-sizing: border-box;
+	text-align: center!important;
+	font-family:monospace;
+	letter-spacing: 1px;
+}
+
+body{;
+	width:85%;
+	height: 90%;
+	margin: auto;
+	margin-top: 1rem;
+	text-align: center!important;
+	border-radius: 2rem;
+}
+
+h1{
+	font-size: 40px;
+	color: black;
+	font-weight: bold!important;
+	width:100%;
+	padding-top: 1.5rem!important;
+	padding-bottom: 1.5rem!important;
+	display: inline-block;
+	margin: auto;
+	text-align: center!important;
+}
+
+.infocard {
+	background-color:rgb(52, 235, 134, 0.75) ;
+	border-radius: 0.5em;
+	font-size: 25px;
+	margin: 1rem auto;
+	padding: 1rem;
+	text-align: center;
+}
+
+.infocardtitle {
+	font-size: 45px;
+	color: black;
+	font-weight: bold;
+	text-align: center;!important;
+}
+
+.fa-minus {
+	color: white;
+	font-size: 2rem;
+	display: inline-block;
+	height: 1em;
+}
+
+.button {
+	background-color: black!important;
+	border-radius: 0.5em!important;
+	color: white!important;
+	margin: Auto!important;
+	padding: 0.5rem!important;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 35%;
+  border-radius: 50%;
+}
+
+.bottompage {
+	font-size: 15px;
+	text-align: center;
+	display: inline-block;
+	color: white;
+	font-weight: 500;
+	margin: auto;
+	width:100%;
+	padding-top: 3rem!important;
+	padding-bottom: 3rem!important;
+}
+
+
+.row {
+  display:flex;
+}
+
+.columns {
+  width: 33.33%;
+  margin: 1rem;
+}
+
+
+
+
+
+
+
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+
+@media screen and (max-width: 900px) {
+  .aboutme {
+    width: 100%;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .columns {
+    width: 100%;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .row {
+    width: 100%;
+    display: block;
+  }
+}
